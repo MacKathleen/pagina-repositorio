@@ -8,13 +8,11 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    
   
 }
  
 .set{
     text-align: center;
-    border: 1px solid rgb(0, 0, 0);
     margin: 50px;
     padding: 20px;
     padding-left: 30px;
@@ -36,11 +34,12 @@ body{
     justify-content: center;
 }
 .text{
-    border: 1px solid red;
+
     text-align: center;
     padding: 20px;
 }
 .welcome {
+    font-size: 50px;
     margin-bottom: 50px;
     color: maroon;
     font-family: 'EB Garamond', serif;
@@ -48,6 +47,7 @@ body{
     font-family: 'Roboto Mono', monospace;
 }
  .name{
+    font-size: 30px;
     margin-bottom: 50px;
     font-family: 'EB Garamond', serif;
     font-family: 'PT Serif', serif;
@@ -55,6 +55,7 @@ body{
  }
 
  .My{
+    font-size: 20PX;
     margin-bottom: 50px;
     font-family: 'EB Garamond', serif;
     font-family: 'PT Serif', serif;
@@ -67,10 +68,24 @@ body{
  }
 
  .links{
-    margin-bottom: 200x;
-    border: 1px solid blue;
+    margin-bottom: 400x;
     display: flex;
     justify-content: center;
     gap: 14px;
     color: brown;
  }
+
+ ul {
+    font-size: 20px;
+    list-style: none;
+    font-family: 'EB Garamond', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  .tec{
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto Mono', monospace;
+  }
